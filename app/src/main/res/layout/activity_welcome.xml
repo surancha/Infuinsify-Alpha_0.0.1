@@ -12,11 +12,11 @@
         android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Influensyfy"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_marginBottom="124dp"
+        android:text="Influencify"
         android:textColor="@android:color/black"
-        android:layout_marginBottom="32dp"/>
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/create_account"
@@ -59,27 +59,19 @@
         android:id="@+id/or_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="or"
-        android:textSize="14sp"
+        android:text="@string/already_have_an_account"
+        android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
 
     <Button
-        android:id="@+id/btn_google"
+        android:id="@+id/btnLogin1"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Continue with Google"
+        android:text="Log-in"
         android:drawableStart="@android:drawable/ic_menu_myplaces"
         android:backgroundTint="@android:color/darker_gray"
         android:textColor="@android:color/black"
         android:layout_marginBottom="24dp"/>
 
-    <TextView
-        android:id="@+id/terms"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="By clicking continue, you agree to our Terms of Service and Privacy Policy"
-        android:textSize="12sp"
-        android:textAlignment="center"
-        android:layout_marginTop="16dp"/>
 
 </LinearLayout>

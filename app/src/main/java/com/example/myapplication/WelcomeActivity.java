@@ -13,7 +13,7 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        Button btnStart = findViewById(R.id.btnStart);
+        Button btnStart = findViewById(R.id.btnLogin1);
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
